@@ -36,7 +36,7 @@ public class Generator {
 
     private void generateByTables(String outputDir,boolean serviceNameStartWithI, String packageName,final String entityPackage, String... tableNames) {
         GlobalConfig config = new GlobalConfig();
-        String dbUrl = "jdbc:mysql://localhost:3306/fastjee-usercenter";
+        String dbUrl = "jdbc:mysql://localhost:3306/fastjee";
         DataSourceConfig dataSourceConfig = new DataSourceConfig();
         dataSourceConfig.setDbType(DbType.MYSQL)
                 .setUrl(dbUrl)
