@@ -41,7 +41,7 @@ public class Generator {
         dataSourceConfig.setDbType(DbType.MYSQL)
                 .setUrl(dbUrl)
                 .setUsername("root")
-                .setPassword("root")
+                .setPassword("123456")
                 .setDriverName("com.mysql.jdbc.Driver")
                 .setTypeConvert(new MySqlTypeConvert(){
                     @Override
